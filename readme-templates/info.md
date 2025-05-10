@@ -15,13 +15,15 @@ Description of [name-here]
 
 ## Files
 ### [file1.file]()
+Explaination what this file does
 
 ### [file2.file]()
+Explaination what this file does
 
 ## Code snippets / usage
 
 ### title1
-
+small explaination
 ```c++
 char text[10] = "some code"
 ```
@@ -34,3 +36,8 @@ Some missing features are:
 > **Important?:** How important is it?
 
 ## Improvements
+See [Missing features](#missing-features)
+
+> ### improvement name
+> What can be improved? \
+> **Why?:** why should it be improved?\
