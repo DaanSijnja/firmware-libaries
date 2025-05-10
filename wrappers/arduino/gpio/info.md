@@ -1,10 +1,22 @@
 # Info : arduino gpio wrapper
 This readme gives information about **arduino gpio wrapper**
 
-## [gpio.hpp](gpio.hpp)
+1. [Discription](#discription)
+1. [Files](#files)
+1. [code snippets / usage](#code-snippets--usage)
+1. [Missing Features](#missing-features)
+1. [Improvements](#improvements)
+
+
+
+## Discription
+This is a wrapper for the Arduino IDE gpio functions to make them better readablity, more convenient in use and better maintainable
+
+## Files
+### [gpio.hpp](gpio.hpp)
 This file has the gpio class thats used for creating a gpio_handle which can be used for gpio related functions. This class also stops the handle from being copied or moved because this can cause complications.
 
-## [gpio_handle.hpp](gpio_handle.hpp) 
+### [gpio_handle.hpp](gpio_handle.hpp) 
 This file has the gpio_handle class that is the core wrapper for the arduino gpio functionality. It makes gpio usage more easy to use and gives better readablity when writing firmware. Does not support PWM or Analoge reading at the moment thinking of implementing this here or in other wrappers to have more consistency with other API/IDE wrappers I wrote
 
 ## code snippets / usage
@@ -47,8 +59,12 @@ void loop() {
 ```
 
 
+## Missing features
+todo 
 
 
+## Improvements
+todo
 
 
 

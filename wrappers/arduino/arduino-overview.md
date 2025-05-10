@@ -1,11 +1,18 @@
-# Arduino Wrappers Overview
-This folder has multiple wrappers for Arduino functions
+# Overview: Arduino IDE Wrappers
 
+This readme gives an overview of Arduino IDE Wrappers
 
-## Current wrappers
+1. [Description](#description)
+1. [Current list of [name-here]](#current-list-of-name-here)
+1. [Current TODO list](#current-todo-list)
 
-> ### GPIO: 
-> Simple GPIO wrapper that can be used for GPIO functionality in chip firmware representation. \
-> Location: [gpio](gpio/info.md)
+## Description
+Wrappers for Arduino IDE so they can be used in the general libaries / chip firmware representations / more readable use.
 
+## Current list of Arduino IDE Wrappers:
 
+> ### [gpio](gpio/info.md) : 
+> Simple GPIO wrapper for more readable GPIO functionality and for use in libaries
+> <br><br>
+
+## Current TODO list:
