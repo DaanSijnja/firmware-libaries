@@ -6,10 +6,6 @@
  *     - implement VISEN later 
  */
 
-
-#include "pico/pwm.hpp"
-#include "pico/stdlib.h"
-
 namespace mp6550
 {
     /// @brief 
